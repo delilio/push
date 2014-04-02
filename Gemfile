@@ -10,6 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '~> 3.0.3.0'
 gem 'devise', '~>3.2.2'
+gem 'dashing-rails'
+gem 'puma'
 
 group :development, :test do
      gem 'sqlite3'

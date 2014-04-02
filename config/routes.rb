@@ -1,4 +1,5 @@
 Datamines::Application.routes.draw do
+  mount Dashing::Engine, at: Dashing.config.engine_path
   devise_for :users
   root "pages#home"
   get "about" => "pages#about"

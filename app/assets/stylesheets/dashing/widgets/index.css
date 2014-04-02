@@ -8,49 +8,5 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
  *= require_tree .
  */
-
-
-
-section {
-	margin: 0 auto;
-	min-height: 100%;
-	position: relative;
-	padding: 16% 0;
-	
-	display: block;
-}
-
-section div.content {
-	position: relative;
-	top: 40%;
-	margin: 0 auto;
-	
-	width: 90%;
-}
-
-section.introduction {
-	padding-bottom: 0;
-}
-
-section.s1 {
-	background-color: #E4E4E4;
-}
-section.s2 {
-	background-color: #CBCBCB;
-}
-section.s3 {
-	background-color: #B1B1B1;
-}
-section.s4 {
-	background-color: #989898;
-}
-section.s5 {
-	background-color: #7F7F7F;
-}
-
-.s1, .s2, .s3 {
-	color: #fefefe;
-}

@@ -1,0 +1,64 @@
+@media print 
+{
+    /*hide elements*/
+    #s4-ribbonrow{display:none;}
+    #navigation_meta{display:none;}
+    .MainNavigation{display:none;}
+    .tabmenu{display:none;}
+    #navigation_meta_footer{display:none;}
+    #info_footer{display:none !important;}
+    #ctl00_PlaceHolderTeaser_Breadcrumb_siteMapPath{display:none;}
+    #s4-statusbarcontainer{display:none;}
+    
+    /*relocate right zone*/
+    /*
+    .s4-ca .omega {float:none !important; text-align:left;}
+    .s4-ca .omega div{margin-left:0px;}
+    */
+    /*avoid unused second page*/
+    #s4-workspace {min-height: inherit!important;}
+    #content_main {padding-bottom:0px !important;}
+    
+    /*margins for logo, header*/
+    #logo {margin-bottom:20px;}
+    .pagename {margin-bottom:20px;}
+    
+    /*hide all right column*/
+    #contentContainerRelated * {display:none;}
+    
+    /*display contact in right column*/
+    #contentContainerRelated .contact, 
+    #contentContainerRelated .contact *,
+    #contentContainerRelated .ms-rtestate-field,
+    #contentContainerRelated .ms-rtestate-field > div {display:block; margin-bottom:0px;}
+    #contentContainerRelated .contact {margin-bottom:30px;}
+    
+    /*hide left webparts*/
+    .wrapper_level3_withtabs .s4-ca .grid_3 {display:none;}
+                  
+    /*hide video, newsTeaser*/
+    .gfk_VideoPlayer {display:none;}
+    .news {display:none;} 
+    
+    /*main teaser*/
+   .showcase-thumbnail-caption {color:#000000;}
+   .showcase-caption {display:block;}
+   .showcase-thumbnail.active .showcase-thumbnail-caption {color:#000000;display:block;}
+   .showcase-arrow-next, .showcase-arrow-previous {display:none;}
+   
+    /*subteaser */   
+    .subteaser .headline {float:left;display:inherit;width:300px;top:-70px;}
+    
+    /*hide background*/
+    #wrapper, #page {background: transparent !important; }
+    footer {background: transparent; background-image:none;}
+
+    /*hide links*/
+    a.backLink,
+    a.button_level1,
+    a.button_level2 {display:none !important;}
+
+}
+
+
+
